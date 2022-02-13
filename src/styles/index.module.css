@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+}
+
+:root {
+    --text-color: white;
+    --text-description: #d7d9f1;
+    --container-bg: #282c34;
+    --btn-go-bg: #353397;
+    --btn-add-bg: #61b494;
+    --btn-edit-bg: #ab8326;
+    --btn-del-bg: #b14242;
+}
+
+ol,
+ul {
+    font-size: calc(4px + 2vmin);
+}
+
+button,
+input {
+    cursor: pointer;
+}
+
+button,
+.container {
+    color: var(--text-color);
+}
+
+.container {
+    background-color: var(--container-bg);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5%;
+}
+
+.navbar {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+
+.btnGo {
+    background: none;
+    transition: background 0.3s;
+}
+
+.btnGo:hover {
+    background: var(--btn-go-bg);
+}
+
+.list,
+.description {
+    font-size: calc(5px + 2vmin);
+}
+
+.listNav,
+.list {
+    width: 70%;
+}
+
+.listNav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.listNav,
+.listItem,
+.description {
+    margin: 0 auto;
+}
+
+.list {
+    margin: 20px auto;
+}
+
+.listItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    color: var(--text-description);
+}
+
+.btnCreate {
+    background: var(--btn-add-bg);
+}
+
+.btnEdit {
+    background: var(--btn-edit-bg);
+}
+
+.btnDel {
+    background: var(--btn-del-bg);
+}
