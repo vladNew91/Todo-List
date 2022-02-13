@@ -1,4 +1,4 @@
-# Todo list application in Single Page Application format. [Demo](https://todo-app-3efbe9.netlify.app/)
+# Todo list application in Single Page Application format. [Demo](https://vladnew91-todo-list.netlify.app/)
 
 ## Application description:
 
