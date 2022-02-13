@@ -1,30 +1,29 @@
-# Simple ToDo App
+# Todo list application in Single Page Application format. [Demo](https://todo-app-3efbe9.netlify.app/)
 
-[Demo](https://todo-app-3efbe9.netlify.app/)
+## Application description:
 
-This is Simple ToDo App with two pages.\
-ToDo contain only a name. There is an ability to add, edit and remove ToDo's.\
-First page - is for creation of ToDo's. Second page - to view the list of the ToDo's.
+1. The application contains 2 pages: the main page and the todo list.
+2. The transition between pages implemented through the navbar.
+3. The main page have a logo and a short description of the page.
+4. The page for the todo list have an interactive list.
+5. List data is requested from https://jsonplaceholder.typicode.com/todos.
+6. The ability to add/change/delete todo is implemented.
+7. Pagination is implemented without reloading the page.
 
 ## List of technologies
 
-1. React baced on [Create React App](https://github.com/facebook/create-react-app), functional components.
-2. React-Redux.
-3. TypeScript.
-
-### Available Scripts
-
-In the project directory, you can run:
-
-`yarn start`\
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-`yarn build`\
-Builds the app for production to the `build` folder.
+1. React baced on [Create React App](https://github.com/facebook/create-react-app), functional components, hooks
+2. Redux
+3. Redux-Saga
+4. React router
+5. TypeScript
+6. Axios
 
 ## Learn More
 
-To learn React, check out the [React documentation](https://reactjs.org/).\
-To learn React with Redux, check out the [React-Redux documentation](https://react-redux.js.org/).\
-To learn TypeScript, check out the [TypeScript documentation](https://www.typescriptlang.org/docs/).
+[React](https://reactjs.org/),
+[React-Redux](https://react-redux.js.org/),
+[Redux-Saga](https://redux-saga.js.org/),
+[React router](https://reactrouter.com/docs/en/v6),
+[Axios](https://axios-http.com/docs/intro),
+[TypeScript](https://www.typescriptlang.org/docs/).

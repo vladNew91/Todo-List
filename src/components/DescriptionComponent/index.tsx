@@ -3,7 +3,7 @@ import styles from '../../styles/index.module.css';
 export const DescriptionComponent: React.FC = (): JSX.Element => (
     <div className={styles.description}>
         <h3>Todo list application in Single Page Application format.</h3>
-        <span>Application Requirements:</span>
+        <span>Application description:</span>
         <ol>
             <li>The application contains 2 pages: the main page and the todo list.</li>
             <li>The transition between pages implemented through the navbar.</li>
